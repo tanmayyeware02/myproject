@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background: lightblue;
+    position: absolute;
+    height: 610px;
+    width: 300px;
+    border-radius: 0 0 175px 175px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.sidebar nav{
+    padding: 50px;
+}
+
+.sidebar nav li{
+    padding: 8px;
+    list-style: none;
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+.sidebar nav li a{
+    padding: 2px;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.sidebar nav li a:hover{
+    transform: scale(1.2);
+    border-left: 15px solid
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+
+}
+
+img{
+    margin-left: 50px;
+    margin-right: 30px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+       
+}
+
+.skillcontainer{
+    background-size: cover;
+    height: 100vh;
+    width: 81vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+    text-align: center;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+.skill{
+    width: 353px;
+    height: 33px;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+
